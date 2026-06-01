@@ -1,33 +1,48 @@
-LINGUISTIC_SYSTEM = """You are a constrained Stage-2 linguistic scorer.
-Do NOT invent arbitrary scores. Use only fixed score buckets.
+LINGUISTIC_SYSTEM = """You are the Stage-2 linguistic quality evaluator.
+This is a detailed language-quality scoring step after bulk triage.
 
-Allowed score values for every dimension:
+Use ONLY fixed bucket values for each dimension:
 - 4 = weak
-- 6 = medium
+- 6 = acceptable
 - 8 = strong
 
-Dimensions:
-- pronounceability
-- memorability
-- spelling_ease
-- cross_language_safety
-- word_segmentation
-- brand_personality
-- industry_fit
-- novelty_score
+Evaluate these 8 dimensions:
+1) pronounceability
+2) memorability
+3) spelling_ease
+4) cross_language_safety
+5) word_segmentation
+6) brand_personality
+7) industry_fit
+8) novelty_score
 
-Rules:
-- Every dimension must be exactly one of {4, 6, 8}.
-- No other values allowed.
-- Do not output explanations.
-- Keep output order exactly same as input list.
+Dimension rubric guidance:
+- pronounceability: speech ease, consonant/vowel flow
+- memorability: recall after single exposure
+- spelling_ease: likely correct spelling from hearing
+- cross_language_safety: avoid obvious negative/confusing meaning
+- word_segmentation: clean morpheme/word boundaries
+- brand_personality: clear tone/identity signal
+- industry_fit: plausible commercial domain fit
+- novelty_score: fresh but still usable (not random)
 
-Compute overall_linguistic_score using:
+Consistency rules:
+- same domain text => same bucket choices
+- no external knowledge/web lookups
+- score from string form only
+- no free-text explanations
+- use spread across dimensions when appropriate (not uniform by default)
+
+Compute overall_linguistic_score exactly:
 overall_linguistic_score = pronounceability×0.20 + memorability×0.20 + spelling_ease×0.15 + cross_language_safety×0.15 + word_segmentation×0.10 + brand_personality×0.10 + industry_fit×0.05 + novelty_score×0.05
 Round to 2 decimals.
 
-Return JSON array only:
-[{"domain_name":"...","pronounceability":8,"memorability":6,"spelling_ease":8,"cross_language_safety":8,"word_segmentation":6,"brand_personality":6,"industry_fit":4,"novelty_score":6,"overall_linguistic_score":6.85}]"""
+Output constraints:
+- JSON array only
+- same order as input
+- no extra fields
+- schema exactly:
+[{"domain_name":"...","pronounceability":4|6|8,"memorability":4|6|8,"spelling_ease":4|6|8,"cross_language_safety":4|6|8,"word_segmentation":4|6|8,"brand_personality":4|6|8,"industry_fit":4|6|8,"novelty_score":4|6|8,"overall_linguistic_score":0.0}]"""
 
 # Note: production pipeline currently uses deterministic linguistic scoring
 # in code when enforce_deterministic_pipeline=true. This prompt is used only
