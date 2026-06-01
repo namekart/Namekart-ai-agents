@@ -1,0 +1,6 @@
+domain_name,run1_pronounceability,run1_memorability,run1_spelling_ease,run1_cross_language_safety,run1_word_segmentation,run1_brand_personality,run1_industry_fit,run1_novelty_score,run1_overall_linguistic_score,run1_adjusted_linguistic_score,run1_gate_passed,run2_pronounceability,run2_memorability,run2_spelling_ease,run2_cross_language_safety,run2_word_segmentation,run2_brand_personality,run2_industry_fit,run2_novelty_score,run2_overall_linguistic_score,run2_adjusted_linguistic_score,run2_gate_passed,run3_pronounceability,run3_memorability,run3_spelling_ease,run3_cross_language_safety,run3_word_segmentation,run3_brand_personality,run3_industry_fit,run3_novelty_score,run3_overall_linguistic_score,run3_adjusted_linguistic_score,run3_gate_passed
+growhub.net,7,7,7,8,8,8,3,6,7.1,6.9,True,7,7,7,8,8,8,3,6,7.1,6.9,True,7,7,7,8,8,8,3,6,7.1,6.9,True
+leadteam.ai,7,7,7,8,8,7,8,5,7.2,7.2,True,7,7,7,8,8,7,8,5,7.2,7.2,True,7,7,7,8,8,7,8,5,7.2,7.2,True
+neuralbank.ai,7,7,6,8,8,7,8,5,7.05,7.05,True,7,7,6,8,8,7,8,5,7.05,7.05,True,7,7,6,8,8,7,8,5,7.05,7.05,True
+payflow.io,6,7,7,8,8,8,8,6,7.15,6.95,True,6,7,7,8,8,8,8,6,7.15,6.95,True,6,7,7,8,8,8,8,6,7.15,6.95,True
+therapist.com,7,7,7,8,7,6,8,5,7.0,7.0,True,7,7,7,8,7,6,8,5,7.0,7.0,True,7,7,7,8,7,6,8,5,7.0,7.0,True

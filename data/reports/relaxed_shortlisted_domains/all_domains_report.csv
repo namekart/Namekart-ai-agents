@@ -1,0 +1,501 @@
+domain_name,tld,auction_price,bulk_pass,bulk_score,bulk_reason,ling_pass,ling_score,ling_adjusted,gate_reason,final_stage
+codestudios.com,com,7.99,True,7,,False,6.35,6.35,memorability 4 < 5,linguistic_gated
+firmoil.com,com,7.99,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+iyinghua.io,io,7.99,True,8,,False,5.45,5.25,overall 5.25 < 6.2,linguistic_gated
+making.now,now,7.99,True,9,,False,6.0,5.2,overall 5.2 < 6.2,linguistic_gated
+moonery.com,com,7.99,True,10,,False,6.2,6.2,weakest dimension 4 < 5,linguistic_gated
+oldmutualinsurance.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+potandplant.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+psitirepressure.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+sharing.now,now,7.99,True,9,,False,6.0,5.2,overall 5.2 < 6.2,linguistic_gated
+vivavision.com,com,7.99,True,9,,False,5.2,5.2,overall 5.2 < 6.2,linguistic_gated
+weedlane.com,com,7.99,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+wife.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+aromanticsperspective.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+attilia.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+cabri-volga.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+canadianmusician.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+coincollectingenterprises.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+elcontact.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+floraa.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+livedan330.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+pitchingmachinepro.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+savenay.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+sugarmanrogers.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+tacotalk.com,com,0.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+blingfactory.com,com,1.0,False,4,,False,,,skipped_bulk,bulk_rejected
+bythemoon.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+girish.com,com,6.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+addlocalbusiness.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+babymassearch.com,com,1.0,False,3,,False,,,skipped_bulk,bulk_rejected
+chatgpttv.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+claim.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+eatbetterspendless.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+economiapedia.com,com,7.99,False,2,,False,,,skipped_bulk,bulk_rejected
+esgambling.com,com,7.99,True,7,,False,5.4,5.4,overall 5.4 < 6.2,linguistic_gated
+findmyhomestay.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+freespirits.net,net,1.0,False,6,,False,,,skipped_bulk,bulk_rejected
+fsiblog.us,us,1.0,True,9,,False,6.5,5.7,overall 5.7 < 6.2,linguistic_gated
+hummerstudio.com,com,1.0,False,5,,False,,,skipped_bulk,bulk_rejected
+netsum.com,com,7.99,True,10,,True,6.8,6.8,,linguistic_pass
+newsnmio.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+newszkl.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+newszxcv.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+novutek.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+pl2.cc,cc,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+presspace.com,com,1.0,True,7,,False,5.55,5.55,overall 5.55 < 6.2,linguistic_gated
+satoshi.im,im,7.99,True,9,,False,6.0,5.2,overall 5.2 < 6.2,linguistic_gated
+soapyland.com,com,1.0,True,7,,False,6.15,6.15,overall 6.15 < 6.2,linguistic_gated
+socyberty.com,com,31.0,False,1,,False,,,skipped_bulk,bulk_rejected
+thegoldenbug.com,com,1.0,False,6,,False,,,skipped_bulk,bulk_rejected
+virtualsaigon.com,com,1.0,False,4,,False,,,skipped_bulk,bulk_rejected
+wattmax.com,com,7.99,True,9,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+432444.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+balticapartment.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+simplicityphotography.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+danong.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+zig.info,info,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+3x21.cc,cc,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+airdomains.com,com,7.99,True,8,,False,5.45,5.45,overall 5.45 < 6.2,linguistic_gated
+bloxfruits.lol,lol,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+catnet.co,co,7.99,True,10,,True,6.8,6.6,,linguistic_pass
+cogan.org,org,7.99,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+dayform.com,com,7.99,True,10,,False,6.4,6.4,weakest dimension 4 < 5,linguistic_gated
+dbc.app,app,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+imkino.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+kariplast.com,com,1.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+lambertcastle.com,com,7.99,False,3,,False,,,skipped_bulk,bulk_rejected
+letusfindout.com,com,7.99,False,6,,False,,,skipped_bulk,bulk_rejected
+nameheroes.com,com,7.99,True,9,,False,5.6,5.6,overall 5.6 < 6.2,linguistic_gated
+nofacade.com,com,7.99,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+nubestore.com,com,7.99,True,8,,False,6.4,6.4,weakest dimension 4 < 5,linguistic_gated
+proskore.com,com,7.99,True,10,,True,6.95,6.95,,linguistic_pass
+swotsky.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+vbgb.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+burkedesign.com,com,0.0,True,7,,True,6.5,6.5,,linguistic_pass
+chromatek.com,com,0.0,True,7,,False,5.55,5.55,overall 5.55 < 6.2,linguistic_gated
+intersindical.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+lightonline.com,com,0.0,False,5,,False,,,skipped_bulk,bulk_rejected
+martek.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+smartrm.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+thejewelstore.com,com,0.0,False,3,,False,,,skipped_bulk,bulk_rejected
+tilestore.com,com,0.0,True,8,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+agents.now,now,7.99,True,7,,False,5.8,5.0,overall 5.0 < 6.2,linguistic_gated
+ahoy.now,now,7.99,True,7,,False,6.0,5.2,overall 5.2 < 6.2,linguistic_gated
+alertbit.com,com,7.99,True,9,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+bots.now,now,7.99,False,6,,False,,,skipped_bulk,bulk_rejected
+byte.now,now,7.99,False,4,,False,,,skipped_bulk,bulk_rejected
+commit.now,now,7.99,True,9,,False,6.0,5.2,overall 5.2 < 6.2,linguistic_gated
+component.now,now,7.99,False,6,,False,,,skipped_bulk,bulk_rejected
+engine.now,now,7.99,True,9,,False,6.0,5.2,overall 5.2 < 6.2,linguistic_gated
+folder.now,now,7.99,True,9,,False,6.4,5.6,overall 5.6 < 6.2,linguistic_gated
+genuine-lamps.com,com,15.0,False,1,,False,,,skipped_bulk,bulk_rejected
+hirebuddies.com,com,7.99,True,7,,False,6.35,6.35,memorability 4 < 5,linguistic_gated
+sand.now,now,7.99,False,6,,False,,,skipped_bulk,bulk_rejected
+stationkey.com,com,1.0,True,8,,False,5.6,5.6,overall 5.6 < 6.2,linguistic_gated
+webinar.now,now,7.99,True,10,,True,6.8,6.0,,linguistic_pass
+chodulich.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+jurnal-pendidikan-tinggi.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+karwaan.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+mdcons.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+minmad.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+mkdetailing.com,com,0.0,False,5,,False,,,skipped_bulk,bulk_rejected
+novasistemas.com,com,0.0,True,7,,False,5.4,5.4,overall 5.4 < 6.2,linguistic_gated
+nspllc.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+properla.com,com,0.0,True,10,,True,6.95,6.95,,linguistic_pass
+cheviots.com,com,7.99,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+cuprate.com,com,7.99,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+electrasecurity.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+starfly.org,org,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+brosshop.com,com,0.0,True,9,,True,6.9,6.9,,linguistic_pass
+cazasolution.com,com,0.0,True,7,,False,5.0,5.0,overall 5.0 < 6.2,linguistic_gated
+codevibe.org,org,0.0,True,10,,True,7.2,7.0,,linguistic_pass
+cryptogpt.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+dienbien.com,com,0.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+envg.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+gloriouscreation.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+gulart.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+hrtour.com,com,0.0,True,9,,False,6.2,6.2,weakest dimension 4 < 5,linguistic_gated
+jsjn.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+lcsz.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+mayoshop.com,com,0.0,True,10,,True,7.1,7.1,,linguistic_pass
+mysecurityservice.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+nastart.org,org,0.0,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+nataland.com,com,0.0,True,10,,False,6.35,6.35,weakest dimension 4 < 5,linguistic_gated
+peedo.com,com,0.0,True,8,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+psychologue-adultes-couples.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+smudde.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+themindless.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+thinkmen.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+timm2023.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+tommyschultz.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+weyk.com,com,0.0,True,8,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+wisip.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+zhyv.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+emisfer.com,com,1.0,True,10,,True,6.2,6.2,,linguistic_pass
+nofaith.com,com,7.99,True,10,,False,6.25,6.25,weakest dimension 4 < 5,linguistic_gated
+rx.now,now,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+airportshuttle.net,net,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+baki.org,org,0.0,True,8,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+bilgiggo.org,org,0.0,True,10,,False,6.35,6.15,overall 6.15 < 6.2,linguistic_gated
+bimaxpro.com,com,0.0,True,10,,True,6.75,6.75,,linguistic_pass
+budsconcrete.com,com,0.0,False,5,,False,,,skipped_bulk,bulk_rejected
+bvdom.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+coffeebeacon.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+cristalcar.com,com,0.0,True,8,,False,5.6,5.6,overall 5.6 < 6.2,linguistic_gated
+crypz.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+cyberlawcentre.org,org,0.0,False,2,,False,,,skipped_bulk,bulk_rejected
+dissoc.org,org,0.0,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+dsclub.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+filmee.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+findujour.com,com,0.0,True,9,,True,7.1,7.1,,linguistic_pass
+floridabungalow.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+habisreutinger.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+hongkungcafe.com,com,0.0,False,5,,False,,,skipped_bulk,bulk_rejected
+lovekay.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+oakleydental.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+okitalk.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+ouncewater.com,com,0.0,True,8,,False,5.4,5.4,overall 5.4 < 6.2,linguistic_gated
+plantcellbiology.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+profiwin.com,com,0.0,True,10,,True,6.95,6.95,,linguistic_pass
+rsmotors.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+samsungrelumino.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+santeinfo.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+successfulschools.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+tadim-freshcut.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+tdcollection.com,com,0.0,False,5,,False,,,skipped_bulk,bulk_rejected
+thomaskrendlgilbert.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+universeexploration.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+veille-digitale.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+xtd.io,io,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+arf.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+deoplay.com,com,7.99,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+dug.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+fastjobs.net,net,1.0,True,8,,True,6.9,6.7,,linguistic_pass
+grind.now,now,7.99,False,6,,False,,,skipped_bulk,bulk_rejected
+io.icu,icu,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+jobstart.net,net,1.0,True,7,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+adseed.com,com,0.0,True,10,,False,6.2,6.2,weakest dimension 4 < 5,linguistic_gated
+alyla.com,com,0.0,True,9,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+aonyx.com,com,0.0,True,9,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+avector.com,com,0.0,True,10,,True,6.2,6.2,,linguistic_pass
+baumaninsurance.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+bestgain.com,com,0.0,True,10,,True,6.9,6.9,,linguistic_pass
+calapa.org,org,0.0,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+ceterrassa.com,com,0.0,True,8,,False,5.6,5.6,overall 5.6 < 6.2,linguistic_gated
+chamoisniortais.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+contentai.org,org,0.0,True,7,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+deeb.org,org,0.0,True,8,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+earthpeoples.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+formatauto.com,com,0.0,True,8,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+g-cloud.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+getsava.com,com,0.0,True,10,,False,6.4,6.4,weakest dimension 4 < 5,linguistic_gated
+gfsoft.com,com,0.0,True,7,,False,6.55,6.55,pronounceability 4 < 5,linguistic_gated
+greycard.com,com,0.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+hedgehogclub.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+helpingalabamapets.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+informe24.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+livingauthentically.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+lmag.org,org,0.0,True,7,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+lunalis.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+madewithmagic.com,com,0.0,False,3,,False,,,skipped_bulk,bulk_rejected
+minecraft-aventure.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+morer.com,com,0.0,True,10,,True,6.2,6.2,,linguistic_pass
+nclbyy.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+networkresolution.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+nexnews.com,com,0.0,True,10,,False,6.5,6.5,weakest dimension 4 < 5,linguistic_gated
+palmsander.com,com,0.0,True,7,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+pefv.com,com,0.0,True,8,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+radio80.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+restaurantatipic.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+retrographik.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+samerhof.com,com,0.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+shengjunmy.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+speedconnect.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+starklawlibrary.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+thefightfanatic.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+travelvia.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+ufyt.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+upwardspiral2011.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+vietnamdomain.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+vietnamstudent.com,com,0.0,False,3,,False,,,skipped_bulk,bulk_rejected
+webvilles.org,org,0.0,True,8,,True,6.75,6.55,,linguistic_pass
+xtratufftrailers.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+yourbeststethoscope.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+alexandreabreu.com,com,7.99,False,3,,False,,,skipped_bulk,bulk_rejected
+elysara.com,com,7.99,True,9,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+horoskopskiznakovi.com,com,1.3,False,1,,False,,,skipped_bulk,bulk_rejected
+ladorica.com,com,1.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+sectheory.com,com,7.99,True,7,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+yamba.net,net,7.99,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+futureminds.net,net,7.99,False,4,,False,,,skipped_bulk,bulk_rejected
+hireme.now,now,7.99,True,10,,True,7.15,6.35,,linguistic_pass
+licensekeysfree.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+medal.me,me,7.99,True,10,,False,6.25,6.05,overall 6.05 < 6.2,linguistic_gated
+ncnortheast.com,com,7.99,False,4,,False,,,skipped_bulk,bulk_rejected
+nuit.co,co,7.99,True,8,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+siebel.co,co,7.99,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+tiens.co,co,7.99,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+6ycollective.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+asiaprospect.com,com,0.0,True,7,,False,5.8,5.8,memorability 3 < 5,linguistic_gated
+bodyfence.com,com,0.0,True,7,,False,5.55,5.55,overall 5.55 < 6.2,linguistic_gated
+cutandprint.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+gostudio.org,org,0.0,True,10,,False,6.35,6.15,overall 6.15 < 6.2,linguistic_gated
+hvbgroup.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+hypoexpert.com,com,0.0,True,7,,False,5.4,5.4,overall 5.4 < 6.2,linguistic_gated
+isolving.com,com,0.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+mastertech.org,org,0.0,True,8,,True,6.95,6.75,,linguistic_pass
+megalec.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+nhadatvinhomes.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+oreex.com,com,0.0,True,8,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+quickflavor.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+ruuts.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+contribute.now,now,7.99,False,5,,False,,,skipped_bulk,bulk_rejected
+cyberlingo.com,com,7.99,True,7,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+dii.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+fhi.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+gei.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+glink.io,io,7.99,True,9,,True,6.7,6.5,,linguistic_pass
+gptdownload.net,net,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+holaquetal.com,com,7.99,True,9,,False,5.2,5.2,overall 5.2 < 6.2,linguistic_gated
+ieee-pemc2022.org,org,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+jocka.com,com,7.99,True,10,,False,5.7,5.7,overall 5.7 < 6.2,linguistic_gated
+lima.tv,tv,7.99,True,7,,False,6.0,5.2,overall 5.2 < 6.2,linguistic_gated
+meds.now,now,7.99,False,6,,False,,,skipped_bulk,bulk_rejected
+pwr.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+reserveringen.com,com,7.99,False,4,,False,,,skipped_bulk,bulk_rejected
+stroodles.com,com,7.99,True,7,,False,5.55,5.55,overall 5.55 < 6.2,linguistic_gated
+susanclayton.com,com,7.99,False,5,,False,,,skipped_bulk,bulk_rejected
+vrosa.com,com,7.99,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+vyz.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+welcometocreature.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+youify.com,com,7.99,True,10,,True,6.7,6.7,,linguistic_pass
+agruco.org,org,0.0,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+allotments-uk.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+aluwood.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+ameliemarieintokyo.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+apps-labs.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+beefstockerusa.org,org,0.0,False,2,,False,,,skipped_bulk,bulk_rejected
+behsan.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+beksar.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+bettingon.com,com,0.0,True,8,,False,6.15,6.15,overall 6.15 < 6.2,linguistic_gated
+blackelkenergy.com,com,0.0,False,3,,False,,,skipped_bulk,bulk_rejected
+blepharitis.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+bodyanalyse.com,com,0.0,False,5,,False,,,skipped_bulk,bulk_rejected
+boomboo.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+businessboat.com,com,0.0,False,5,,False,,,skipped_bulk,bulk_rejected
+chestnuthillrealestate.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+desakalongan.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+fotothing.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+getverb.com,com,0.0,True,10,,False,6.4,6.4,weakest dimension 4 < 5,linguistic_gated
+greenevent.com,com,0.0,True,8,,False,5.6,5.6,overall 5.6 < 6.2,linguistic_gated
+hanslopeparishcouncil.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+helema.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+hepjazz.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+hornhaut-entfernen.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+insentive.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+jav4you.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+ldlawyer.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+luizlopes.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+mabart.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+marceloalvarez.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+marinebookings.com,com,0.0,False,3,,False,,,skipped_bulk,bulk_rejected
+mediavault.com,com,0.0,True,9,,True,6.55,6.55,,linguistic_pass
+menorcapulsar.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+mymargin.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+ndental.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+noblesolutions.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+nobostyle.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+nospoon.org,org,0.0,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+perfect-security.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+platinumdeluxe.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+pokeb.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+poptropicatips.com,com,0.0,False,3,,False,,,skipped_bulk,bulk_rejected
+queencash.com,com,0.0,True,7,,False,6.7,6.7,weakest dimension 4 < 5,linguistic_gated
+queenpinroanoke.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+schlagzeile.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+servce.com,com,0.0,True,9,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+shanenshangmao.com,com,0.0,False,3,,False,,,skipped_bulk,bulk_rejected
+shtelecom.com,com,0.0,True,7,,False,5.55,5.55,overall 5.55 < 6.2,linguistic_gated
+suppressed.com,com,0.0,True,7,,False,5.4,5.4,overall 5.4 < 6.2,linguistic_gated
+takebacktheland.org,org,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+teachforce.com,com,0.0,True,7,,False,6.35,6.35,weakest dimension 4 < 5,linguistic_gated
+tecnocars.com,com,0.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+unicon365.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+viplav.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+winphil.com,com,0.0,True,9,,False,5.5,5.5,overall 5.5 < 6.2,linguistic_gated
+yuzen.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+zenjava.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+augur.co,co,1.0,True,7,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+canadasuv.com,com,1.0,True,9,,False,6.35,6.35,weakest dimension 4 < 5,linguistic_gated
+cuppachai.com,com,1.0,True,8,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+hiddeninsights.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+iqtec.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+lavecchiagalleria.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+polderstudio.com,com,1.0,False,5,,False,,,skipped_bulk,bulk_rejected
+samalin.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+siamcenter.com,com,1.0,True,8,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+tiendaglobex.com,com,1.0,False,6,,False,,,skipped_bulk,bulk_rejected
+verd.co,co,1.0,True,7,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+lasvegas.now,now,7.99,True,9,,False,5.95,5.15,overall 5.15 < 6.2,linguistic_gated
+plern.com,com,7.99,True,8,,False,5.4,5.4,overall 5.4 < 6.2,linguistic_gated
+francamp.com,com,7.99,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+jobsie.com,com,7.99,True,10,,False,6.25,6.25,weakest dimension 4 < 5,linguistic_gated
+nut.vc,vc,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+pregrade.com,com,7.99,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+sui.vc,vc,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+talent.now,now,7.99,True,9,,False,6.25,5.45,overall 5.45 < 6.2,linguistic_gated
+venaorganica.com,com,7.99,False,6,,False,,,skipped_bulk,bulk_rejected
+tnr.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+absenscarens.com,com,0.0,False,5,,False,,,skipped_bulk,bulk_rejected
+allsul.com,com,0.0,True,9,,False,6.2,6.2,weakest dimension 4 < 5,linguistic_gated
+consolva.com,com,0.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+encrerouge.com,com,0.0,True,7,,False,5.0,5.0,overall 5.0 < 6.2,linguistic_gated
+ernstl.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+florenciastore.com,com,0.0,False,4,,False,,,skipped_bulk,bulk_rejected
+hetcom.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+mirosports.com,com,0.0,True,7,,False,5.4,5.4,overall 5.4 < 6.2,linguistic_gated
+novoucher.com,com,0.0,True,8,,True,6.55,6.55,,linguistic_pass
+alteridade.com,com,0.0,True,8,,False,5.2,5.2,overall 5.2 < 6.2,linguistic_gated
+she.network,network,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+ariinnovation.com,com,1.0,False,4,,False,,,skipped_bulk,bulk_rejected
+brigadeirando.com,com,1.0,False,4,,False,,,skipped_bulk,bulk_rejected
+ennovelas.com,com,1.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+flexizone.com,com,1.0,True,9,,True,6.75,6.75,,linguistic_pass
+garylung.com,com,1.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+ivgtech.com,com,1.0,True,10,,True,6.95,6.95,,linguistic_pass
+kiruva.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+studionove.com,com,1.0,True,8,,False,5.2,5.2,overall 5.2 < 6.2,linguistic_gated
+aeonfinance.com,com,1.0,False,5,,False,,,skipped_bulk,bulk_rejected
+agenciaglow.com,com,1.0,False,6,,False,,,skipped_bulk,bulk_rejected
+beausain.com,com,1.0,True,7,,False,5.6,5.6,overall 5.6 < 6.2,linguistic_gated
+chavito.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+livenergy.com,com,1.0,True,8,,True,6.65,6.65,,linguistic_pass
+martinmillers.com,com,1.0,False,4,,False,,,skipped_bulk,bulk_rejected
+nutrendo.com,com,1.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+tekmad.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+tcn.io,io,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+babyshark.net,net,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+love.kids,kids,7.99,True,7,,False,6.0,5.2,overall 5.2 < 6.2,linguistic_gated
+pet.clinic,clinic,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+canvasn.com,com,1.0,True,10,,False,6.4,6.4,weakest dimension 4 < 5,linguistic_gated
+lorenzomari.com,com,1.0,False,6,,False,,,skipped_bulk,bulk_rejected
+roommate.me,me,1.0,True,10,,False,5.95,5.75,overall 5.75 < 6.2,linguistic_gated
+samobor.com,com,1.0,True,10,,True,6.2,6.2,,linguistic_pass
+tevab.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+appliancecart.com,com,1.0,False,3,,False,,,skipped_bulk,bulk_rejected
+churchhousing.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+johndurand.com,com,1.0,True,7,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+lustreled.com,com,1.0,True,7,,False,5.55,5.55,overall 5.55 < 6.2,linguistic_gated
+sportarmour.com,com,1.0,False,6,,False,,,skipped_bulk,bulk_rejected
+nordiclore.com,com,1.0,True,8,,False,5.6,5.6,overall 5.6 < 6.2,linguistic_gated
+skateology.com,com,1.0,True,8,,False,5.6,5.6,overall 5.6 < 6.2,linguistic_gated
+jobyfi.com,com,1.0,True,9,,False,6.05,6.05,overall 6.05 < 6.2,linguistic_gated
+offshoremedia.com,com,6.0,False,1,,False,,,skipped_bulk,bulk_rejected
+rosaimperial.com,com,1.0,False,6,,False,,,skipped_bulk,bulk_rejected
+allaslive.com,com,7.99,True,9,,True,6.85,6.85,,linguistic_pass
+fecop.com,com,7.99,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+markmo.com,com,7.99,True,9,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+net.capital,capital,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+oxygen.finance,finance,7.99,True,7,,False,5.8,5.0,overall 5.0 < 6.2,linguistic_gated
+prudence.capital,capital,7.99,True,9,,False,5.95,5.15,overall 5.15 < 6.2,linguistic_gated
+walletshield.io,io,7.99,False,4,,False,,,skipped_bulk,bulk_rejected
+chill.media,media,7.99,False,6,,False,,,skipped_bulk,bulk_rejected
+entertainmentgazette.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+truckinsider.com,com,7.99,False,6,,False,,,skipped_bulk,bulk_rejected
+autumngarden.com,com,1.0,False,5,,False,,,skipped_bulk,bulk_rejected
+experiencetennis.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+newyorkexhibition.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+dnc.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+diomira.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+streetrealestate.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+veracy.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+amplifyconference.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+elifeproject.com,com,1.0,True,7,,False,5.8,5.8,memorability 3 < 5,linguistic_gated
+lapriye.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+megamarto.com,com,1.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+mivzaklive.com,com,1.0,True,9,,True,6.7,6.7,,linguistic_pass
+publisitio.com,com,1.0,True,8,,False,5.2,5.2,overall 5.2 < 6.2,linguistic_gated
+revistanos.com,com,1.0,True,8,,False,5.6,5.6,overall 5.6 < 6.2,linguistic_gated
+rpi.info,info,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+themiami.com,com,11.0,False,1,,False,,,skipped_bulk,bulk_rejected
+valdiano.com,com,1.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+verthos.com,com,1.0,True,9,,False,5.8,5.8,overall 5.8 < 6.2,linguistic_gated
+washclean.com,com,18.0,False,1,,False,,,skipped_bulk,bulk_rejected
+billion.capital,capital,7.99,True,9,,False,6.0,5.2,overall 5.2 < 6.2,linguistic_gated
+blueroots.com,com,33.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+domainrally.com,com,7.99,False,5,,False,,,skipped_bulk,bulk_rejected
+fullfillment.org,org,7.99,False,3,,False,,,skipped_bulk,bulk_rejected
+acordis.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+tortillaflats.com,com,1.0,False,4,,False,,,skipped_bulk,bulk_rejected
+trimad.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+globaltactics.com,com,7.99,False,4,,False,,,skipped_bulk,bulk_rejected
+nmportal.com,com,1.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+overleap.com,com,1.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+swosh.com,com,1.0,True,8,,False,5.4,5.4,overall 5.4 < 6.2,linguistic_gated
+cotoya.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+consimo.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+katieanderson.com,com,1.0,False,3,,False,,,skipped_bulk,bulk_rejected
+oneshootproduction.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+tyz.info,info,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+artemec.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+covaial.com,com,1.0,True,9,,False,6.25,6.25,weakest dimension 4 < 5,linguistic_gated
+leadaccess.com,com,1.0,True,9,,False,6.1,6.1,weakest dimension 3 < 5,linguistic_gated
+livingclassics.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+losttime.com,com,41.0,True,9,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+petvi.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+pilandina.com,com,1.0,True,8,,False,6.15,6.15,overall 6.15 < 6.2,linguistic_gated
+tetherx.com,com,11.0,True,10,,False,6.2,6.2,weakest dimension 4 < 5,linguistic_gated
+opalestudio.com,com,1.0,False,5,,False,,,skipped_bulk,bulk_rejected
+budgetpetfood.com,com,1.0,False,4,,False,,,skipped_bulk,bulk_rejected
+moovtek.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+truepath.org,org,1.0,True,10,,False,5.95,5.75,overall 5.75 < 6.2,linguistic_gated
+getuvisa.com,com,7.99,True,10,,False,6.35,6.35,weakest dimension 4 < 5,linguistic_gated
+sorbxt.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+svidomo.com,com,7.99,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+ateus.com,com,0.0,True,8,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+mevabe.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+stylemix.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+sumwhere.com,com,1.0,True,9,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+trupart.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+anasco.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+ayx.info,info,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+coderpress.com,com,1.0,True,8,,True,6.75,6.75,,linguistic_pass
+dpm.info,info,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+mjv.info,info,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+soulprinting.com,com,1.0,False,5,,False,,,skipped_bulk,bulk_rejected
+lipsticks.com,com,0.0,False,6,,False,,,skipped_bulk,bulk_rejected
+sexyzone.com,com,0.0,True,10,,True,6.55,6.55,,linguistic_pass
+praguemed.com,com,1.0,True,8,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+ackerman.me,me,1.0,True,10,,False,6.05,5.85,overall 5.85 < 6.2,linguistic_gated
+betterhappy.com,com,1.0,False,4,,False,,,skipped_bulk,bulk_rejected
+menthory.com,com,1.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+nagraj.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+newyorkbeauty.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+pilanova.com,com,1.0,True,10,,True,6.35,6.35,,linguistic_pass
+scotlandrugby.com,com,1.0,False,2,,False,,,skipped_bulk,bulk_rejected
+sealglobal.com,com,1.0,True,8,,True,6.5,6.5,,linguistic_pass
+webcatalyst.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+youcanlead.com,com,1.0,True,9,,True,6.3,6.3,,linguistic_pass
+german.tv,tv,7.99,True,9,,False,6.4,5.6,overall 5.6 < 6.2,linguistic_gated
+niara.com,com,0.0,True,8,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+noblestructures.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+stealthco.com,com,0.0,False,1,,False,,,skipped_bulk,bulk_rejected
+barter.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+extragiving.com,com,7.99,False,5,,False,,,skipped_bulk,bulk_rejected
+format.info,info,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+hilton.me,me,7.99,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+terabox.me,me,7.99,True,10,,False,6.0,5.8,overall 5.8 < 6.2,linguistic_gated
+theearthgroup.com,com,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+aedigest.com,com,1.0,True,10,,False,5.95,5.95,overall 5.95 < 6.2,linguistic_gated
+cafeza.com,com,1.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+luggagecollection.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+rio.bet,bet,7.99,False,1,,False,,,skipped_bulk,bulk_rejected
+elegane.com,com,0.0,True,10,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+artheka.com,com,1.0,True,9,,False,6.0,6.0,overall 6.0 < 6.2,linguistic_gated
+dulcerama.com,com,1.0,True,8,,False,5.75,5.75,overall 5.75 < 6.2,linguistic_gated
+industravels.com,com,1.0,False,5,,False,,,skipped_bulk,bulk_rejected
+roteirize.com,com,1.0,True,8,,False,5.35,5.35,overall 5.35 < 6.2,linguistic_gated
+swarck.com,com,1.0,False,6,,False,,,skipped_bulk,bulk_rejected
+thelegacycollection.com,com,1.0,False,1,,False,,,skipped_bulk,bulk_rejected
+grandcarwash.com,com,1.0,False,4,,False,,,skipped_bulk,bulk_rejected

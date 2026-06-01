@@ -1,0 +1,226 @@
+domain_name,decision,final_score,linguistic_score,bulk_score,valuation_score,gate_passed,gate_detail,auction_price
+proskore.com,BUY,7.5,6.95,10,10.0,True,,7.99
+ivgtech.com,BUY,7.5,6.95,10,10.0,True,,1.0
+mayoshop.com,BUY,7.45,7.1,10,9.07,True,,0.0
+findujour.com,BUY,7.45,7.1,9,9.07,True,,0.0
+allaslive.com,BUY,7.42,6.85,9,10.0,True,,7.99
+netsum.com,BUY,7.38,6.8,10,10.0,True,,7.99
+properla.com,BUY,7.33,6.95,10,9.04,True,,0.0
+profiwin.com,BUY,7.33,6.95,10,9.04,True,,0.0
+flexizone.com,SKIP,7.33,6.75,9,10.0,False,overall 6.75 < 7.0,1.0
+coderpress.com,BUY,7.33,6.75,8,10.0,True,,1.0
+fastjobs.net,BUY,7.29,6.7,8,10.0,True,,1.0
+youify.com,SKIP,7.29,6.7,10,10.0,False,overall 6.7 < 7.0,7.99
+mivzaklive.com,BUY,7.29,6.7,9,10.0,True,,1.0
+brosshop.com,BUY,7.28,6.9,9,9.03,True,,0.0
+bestgain.com,BUY,7.28,6.9,10,9.03,True,,0.0
+livenergy.com,BUY,7.25,6.65,8,10.0,True,,1.0
+catnet.co,BUY,7.21,6.6,10,10.0,True,,7.99
+codevibe.org,BUY,7.19,7.0,10,8.05,True,,0.0
+bimaxpro.com,BUY,7.15,6.75,10,8.99,True,,0.0
+glink.io,SKIP,7.13,6.5,9,10.0,False,pronounceability 5 < 6,7.99
+sealglobal.com,BUY,7.13,6.5,8,10.0,True,,1.0
+dayform.com,SKIP,7.05,6.4,10,10.0,False,overall 6.4 < 7.0,7.99
+nubestore.com,SKIP,7.05,6.4,8,10.0,False,overall 6.4 < 7.0,7.99
+canvasn.com,SKIP,7.05,6.4,10,10.0,False,overall 6.4 < 7.0,1.0
+canadasuv.com,SKIP,7.01,6.35,9,10.0,False,overall 6.35 < 7.0,1.0
+getuvisa.com,SKIP,7.01,6.35,10,10.0,False,overall 6.35 < 7.0,7.99
+pilanova.com,SKIP,7.01,6.35,10,10.0,False,overall 6.35 < 7.0,1.0
+hireme.now,MAYBE,6.99,6.35,10,9.89,True,,7.99
+mediavault.com,SKIP,6.98,6.55,9,8.94,False,memorability 5 < 6,0.0
+novoucher.com,SKIP,6.98,6.55,8,8.94,False,overall 6.55 < 7.0,0.0
+sexyzone.com,SKIP,6.98,6.55,10,8.94,False,overall 6.55 < 7.0,0.0
+mastertech.org,BUY,6.97,6.75,8,7.99,True,,0.0
+youcanlead.com,SKIP,6.97,6.3,9,10.0,False,memorability 5 < 6,1.0
+nexnews.com,SKIP,6.94,6.5,10,8.93,False,overall 6.5 < 7.0,0.0
+nofaith.com,SKIP,6.92,6.25,10,10.0,False,overall 6.25 < 7.0,7.99
+jobsie.com,SKIP,6.92,6.25,10,10.0,False,overall 6.25 < 7.0,7.99
+covaial.com,SKIP,6.92,6.25,9,10.0,False,overall 6.25 < 7.0,1.0
+moonery.com,SKIP,6.88,6.2,10,10.0,False,overall 6.2 < 7.0,7.99
+emisfer.com,SKIP,6.88,6.2,10,10.0,False,overall 6.2 < 7.0,1.0
+samobor.com,SKIP,6.88,6.2,10,10.0,False,overall 6.2 < 7.0,1.0
+tetherx.com,SKIP,6.88,6.2,10,10.0,False,overall 6.2 < 7.0,11.0
+getsava.com,SKIP,6.85,6.4,10,8.9,False,overall 6.4 < 7.0,0.0
+getverb.com,SKIP,6.85,6.4,10,8.9,False,overall 6.4 < 7.0,0.0
+pilandina.com,SKIP,6.84,6.15,8,10.0,False,overall 6.15 < 7.0,1.0
+nataland.com,SKIP,6.81,6.35,10,8.89,False,overall 6.35 < 7.0,0.0
+webvilles.org,BUY,6.8,6.55,8,7.94,True,,0.0
+leadaccess.com,SKIP,6.8,6.1,9,10.0,False,overall 6.1 < 7.0,1.0
+jobyfi.com,SKIP,6.76,6.05,9,10.0,False,overall 6.05 < 7.0,1.0
+medal.me,SKIP,6.73,6.05,10,9.81,False,overall 6.05 < 7.0,7.99
+firmoil.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,7.99
+girish.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,6.0
+novutek.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+danong.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+imkino.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+cuprate.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,7.99
+deoplay.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,7.99
+vrosa.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,7.99
+cuppachai.com,SKIP,6.72,6.0,8,10.0,False,overall 6.0 < 7.0,1.0
+iqtec.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+samalin.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+kiruva.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+chavito.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+tekmad.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+tevab.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+fecop.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,7.99
+lapriye.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+acordis.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+trimad.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+consimo.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+artemec.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+petvi.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+moovtek.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+svidomo.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,7.99
+trupart.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+anasco.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+praguemed.com,SKIP,6.72,6.0,8,10.0,False,overall 6.0 < 7.0,1.0
+nagraj.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+cafeza.com,SKIP,6.72,6.0,10,10.0,False,overall 6.0 < 7.0,1.0
+artheka.com,SKIP,6.72,6.0,9,10.0,False,overall 6.0 < 7.0,1.0
+weedlane.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,7.99
+nofacade.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,7.99
+webinar.now,SKIP,6.68,6.0,10,9.8,False,overall 6.0 < 7.0,7.99
+cheviots.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,7.99
+hrtour.com,SKIP,6.68,6.2,9,8.85,False,overall 6.2 < 7.0,0.0
+adseed.com,SKIP,6.68,6.2,10,8.85,False,overall 6.2 < 7.0,0.0
+avector.com,SKIP,6.68,6.2,10,8.85,False,overall 6.2 < 7.0,0.0
+morer.com,SKIP,6.68,6.2,10,8.85,False,overall 6.2 < 7.0,0.0
+ladorica.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,1.0
+francamp.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,7.99
+pregrade.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,7.99
+allsul.com,SKIP,6.68,6.2,9,8.85,False,overall 6.2 < 7.0,0.0
+nutrendo.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,1.0
+valdiano.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,1.0
+overleap.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,1.0
+sumwhere.com,SKIP,6.68,5.95,9,10.0,False,overall 5.95 < 7.0,1.0
+aedigest.com,SKIP,6.68,5.95,10,10.0,False,overall 5.95 < 7.0,1.0
+bettingon.com,SKIP,6.63,6.15,8,8.84,False,overall 6.15 < 7.0,0.0
+wattmax.com,SKIP,6.56,5.8,9,10.0,False,overall 5.8 < 7.0,7.99
+elysara.com,SKIP,6.56,5.8,9,10.0,False,overall 5.8 < 7.0,7.99
+yamba.net,SKIP,6.56,5.8,10,10.0,False,overall 5.8 < 7.0,7.99
+nuit.co,SKIP,6.56,5.8,8,10.0,False,overall 5.8 < 7.0,7.99
+siebel.co,SKIP,6.56,5.8,10,10.0,False,overall 5.8 < 7.0,7.99
+tiens.co,SKIP,6.56,5.8,10,10.0,False,overall 5.8 < 7.0,7.99
+siamcenter.com,SKIP,6.56,5.8,8,10.0,False,overall 5.8 < 7.0,1.0
+markmo.com,SKIP,6.56,5.8,9,10.0,False,overall 5.8 < 7.0,7.99
+verthos.com,SKIP,6.56,5.8,9,10.0,False,overall 5.8 < 7.0,1.0
+ackerman.me,SKIP,6.55,5.85,10,9.76,False,overall 5.85 < 7.0,1.0
+cogan.org,SKIP,6.51,5.8,10,9.75,False,overall 5.8 < 7.0,7.99
+kariplast.com,SKIP,6.51,5.75,8,10.0,False,overall 5.75 < 7.0,1.0
+alertbit.com,SKIP,6.51,5.75,9,10.0,False,overall 5.75 < 7.0,7.99
+ennovelas.com,SKIP,6.51,5.75,8,10.0,False,overall 5.75 < 7.0,1.0
+garylung.com,SKIP,6.51,5.75,8,10.0,False,overall 5.75 < 7.0,1.0
+megamarto.com,SKIP,6.51,5.75,8,10.0,False,overall 5.75 < 7.0,1.0
+blueroots.com,SKIP,6.51,5.75,8,10.0,False,overall 5.75 < 7.0,33.0
+nmportal.com,SKIP,6.51,5.75,8,10.0,False,overall 5.75 < 7.0,1.0
+losttime.com,SKIP,6.51,5.75,9,10.0,False,overall 5.75 < 7.0,41.0
+menthory.com,SKIP,6.51,5.75,8,10.0,False,overall 5.75 < 7.0,1.0
+hilton.me,SKIP,6.51,5.8,10,9.75,False,overall 5.8 < 7.0,7.99
+terabox.me,SKIP,6.51,5.8,10,9.75,False,overall 5.8 < 7.0,7.99
+dulcerama.com,SKIP,6.51,5.75,8,10.0,False,overall 5.75 < 7.0,1.0
+attilia.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+floraa.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+savenay.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+martek.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+tilestore.com,SKIP,6.5,6.0,8,8.8,False,overall 6.0 < 7.0,0.0
+karwaan.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+minmad.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+gulart.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+peedo.com,SKIP,6.5,6.0,8,8.8,False,overall 6.0 < 7.0,0.0
+smudde.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+weyk.com,SKIP,6.5,6.0,8,8.8,False,overall 6.0 < 7.0,0.0
+wisip.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+filmee.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+lovekay.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+okitalk.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+lunalis.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+pefv.com,SKIP,6.5,6.0,8,8.8,False,overall 6.0 < 7.0,0.0
+megalec.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+oreex.com,SKIP,6.5,6.0,8,8.8,False,overall 6.0 < 7.0,0.0
+ruuts.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+aluwood.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+behsan.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+beksar.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+boomboo.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+helema.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+hepjazz.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+mabart.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+ndental.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+pokeb.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+viplav.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+yuzen.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+zenjava.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+hetcom.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+diomira.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+veracy.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+cotoya.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+ateus.com,SKIP,6.5,6.0,8,8.8,False,overall 6.0 < 7.0,0.0
+mevabe.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+niara.com,SKIP,6.5,6.0,8,8.8,False,overall 6.0 < 7.0,0.0
+elegane.com,SKIP,6.5,6.0,10,8.8,False,overall 6.0 < 7.0,0.0
+jocka.com,SKIP,6.47,5.7,10,10.0,False,overall 5.7 < 7.0,7.99
+roommate.me,SKIP,6.47,5.75,10,9.74,False,overall 5.75 < 7.0,1.0
+truepath.org,SKIP,6.47,5.75,10,9.74,False,overall 5.75 < 7.0,1.0
+tacotalk.com,SKIP,6.46,5.95,10,8.79,False,overall 5.95 < 7.0,0.0
+dienbien.com,SKIP,6.46,5.95,10,8.79,False,overall 5.95 < 7.0,0.0
+greycard.com,SKIP,6.46,5.95,10,8.79,False,overall 5.95 < 7.0,0.0
+samerhof.com,SKIP,6.46,5.95,10,8.79,False,overall 5.95 < 7.0,0.0
+isolving.com,SKIP,6.46,5.95,10,8.79,False,overall 5.95 < 7.0,0.0
+consolva.com,SKIP,6.46,5.95,10,8.79,False,overall 5.95 < 7.0,0.0
+bilgiggo.org,SKIP,6.45,6.15,10,7.84,False,overall 6.15 < 7.0,0.0
+gostudio.org,SKIP,6.45,6.15,10,7.84,False,overall 6.15 < 7.0,0.0
+fsiblog.us,SKIP,6.43,5.7,9,9.73,False,overall 5.7 < 7.0,1.0
+nameheroes.com,SKIP,6.39,5.6,9,10.0,False,overall 5.6 < 7.0,7.99
+stationkey.com,SKIP,6.39,5.6,8,10.0,False,overall 5.6 < 7.0,1.0
+nordiclore.com,SKIP,6.39,5.6,8,10.0,False,overall 5.6 < 7.0,1.0
+skateology.com,SKIP,6.39,5.6,8,10.0,False,overall 5.6 < 7.0,1.0
+revistanos.com,SKIP,6.39,5.6,8,10.0,False,overall 5.6 < 7.0,1.0
+folder.now,SKIP,6.34,5.6,9,9.7,False,overall 5.6 < 7.0,7.99
+german.tv,SKIP,6.34,5.6,9,9.7,False,overall 5.6 < 7.0,7.99
+alyla.com,SKIP,6.33,5.8,9,8.75,False,overall 5.8 < 7.0,0.0
+aonyx.com,SKIP,6.33,5.8,9,8.75,False,overall 5.8 < 7.0,0.0
+formatauto.com,SKIP,6.33,5.8,8,8.75,False,overall 5.8 < 7.0,0.0
+servce.com,SKIP,6.33,5.8,9,8.75,False,overall 5.8 < 7.0,0.0
+elcontact.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+chodulich.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+thinkmen.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+rsmotors.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+santeinfo.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+travelvia.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+fotothing.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+insentive.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+luizlopes.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+mymargin.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+tecnocars.com,SKIP,6.29,5.75,8,8.74,False,overall 5.75 < 7.0,0.0
+airdomains.com,SKIP,6.27,5.45,8,10.0,False,overall 5.45 < 7.0,7.99
+plern.com,SKIP,6.23,5.4,8,10.0,False,overall 5.4 < 7.0,7.99
+swosh.com,SKIP,6.23,5.4,8,10.0,False,overall 5.4 < 7.0,1.0
+talent.now,SKIP,6.21,5.45,9,9.66,False,overall 5.45 < 7.0,7.99
+roteirize.com,SKIP,6.19,5.35,8,10.0,False,overall 5.35 < 7.0,1.0
+cristalcar.com,SKIP,6.16,5.6,8,8.7,False,overall 5.6 < 7.0,0.0
+ceterrassa.com,SKIP,6.16,5.6,8,8.7,False,overall 5.6 < 7.0,0.0
+greenevent.com,SKIP,6.16,5.6,8,8.7,False,overall 5.6 < 7.0,0.0
+nastart.org,SKIP,6.15,5.8,10,7.75,False,overall 5.8 < 7.0,0.0
+baki.org,SKIP,6.15,5.8,8,7.75,False,overall 5.8 < 7.0,0.0
+dissoc.org,SKIP,6.15,5.8,10,7.75,False,overall 5.8 < 7.0,0.0
+calapa.org,SKIP,6.15,5.8,10,7.75,False,overall 5.8 < 7.0,0.0
+deeb.org,SKIP,6.15,5.8,8,7.75,False,overall 5.8 < 7.0,0.0
+agruco.org,SKIP,6.15,5.8,10,7.75,False,overall 5.8 < 7.0,0.0
+nospoon.org,SKIP,6.15,5.8,10,7.75,False,overall 5.8 < 7.0,0.0
+iyinghua.io,SKIP,6.1,5.25,8,10.0,False,overall 5.25 < 7.0,7.99
+winphil.com,SKIP,6.07,5.5,9,8.68,False,overall 5.5 < 7.0,0.0
+vivavision.com,SKIP,6.06,5.2,9,10.0,False,overall 5.2 < 7.0,7.99
+holaquetal.com,SKIP,6.06,5.2,9,10.0,False,overall 5.2 < 7.0,7.99
+studionove.com,SKIP,6.06,5.2,8,10.0,False,overall 5.2 < 7.0,1.0
+publisitio.com,SKIP,6.06,5.2,8,10.0,False,overall 5.2 < 7.0,1.0
+making.now,SKIP,5.99,5.2,9,9.6,False,overall 5.2 < 7.0,7.99
+sharing.now,SKIP,5.99,5.2,9,9.6,False,overall 5.2 < 7.0,7.99
+satoshi.im,SKIP,5.99,5.2,9,9.6,False,overall 5.2 < 7.0,7.99
+commit.now,SKIP,5.99,5.2,9,9.6,False,overall 5.2 < 7.0,7.99
+engine.now,SKIP,5.99,5.2,9,9.6,False,overall 5.2 < 7.0,7.99
+billion.capital,SKIP,5.99,5.2,9,9.6,False,overall 5.2 < 7.0,7.99
+ouncewater.com,SKIP,5.98,5.4,8,8.65,False,overall 5.4 < 7.0,0.0
+lasvegas.now,SKIP,5.95,5.15,9,9.59,False,overall 5.15 < 7.0,7.99
+prudence.capital,SKIP,5.95,5.15,9,9.59,False,overall 5.15 < 7.0,7.99
+alteridade.com,SKIP,5.81,5.2,8,8.6,False,overall 5.2 < 7.0,0.0
