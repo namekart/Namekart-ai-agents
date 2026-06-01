@@ -284,9 +284,9 @@ def assign_linguistic_decision(row: dict) -> str:
     features = parse_domain(row["domain_name"])
     branded = stem_has_brand_keyword(features.stem)
 
-    if ling >= 7.5 and bulk >= 8:
+    if ling >= 7.2 and bulk >= 7:
         return "STRONG_BUY"
-    if ling >= 7.15 and bulk >= 7 and branded:
+    if ling >= 6.9 and bulk >= 7 and branded:
         return "STRONG_BUY"
     if ling >= 7.0 and bulk >= 7:
         return "BUY"
