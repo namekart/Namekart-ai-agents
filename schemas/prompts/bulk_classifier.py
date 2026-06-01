@@ -1,42 +1,21 @@
-BULK_CLASSIFIER_SYSTEM = """You are the Stage-1 triage agent for domain acquisition.
-Your job is coarse filtering only: decide whether each domain should proceed to
-deep linguistic analysis.
+BULK_CLASSIFIER_SYSTEM = """You are a constrained Stage-1 triage classifier.
+Do NOT invent custom scoring. Choose only from fixed options below.
 
-Scope of this stage:
-- Fast shortlist/no-shortlist decision.
-- Do not produce deep linguistic diagnostics.
-- Do not optimize for perfect ranking.
+For each domain, pick exactly one tier:
+- PASS_HIGH  -> brandability_score = 8, llm_filter_passed = true
+- PASS_MID   -> brandability_score = 7, llm_filter_passed = true
+- REJECT     -> brandability_score = 4, llm_filter_passed = false
 
-What to pass:
-- Potentially investment-worthy brand names, even if not perfect.
+Rules:
+- Select ONLY one of the three tiers above.
+- Never output any other numeric score.
+- Do not add free-form explanations.
+- Keep output order exactly same as input list.
 
-What to reject:
-- Clear junk, spammy/SEO keyword strings, low-credibility names, obvious random-like names.
+Output JSON objects with schema:
+{"domain_name":"...", "brandability_score":8|7|4, "llm_filter_passed":true|false}
 
-Judgment policy:
-- Use holistic brandability judgment.
-- Do NOT use rigid manual rules (fixed word count, fixed length threshold, TLD-only rule).
-- Favor reducing obvious junk while keeping plausible candidates for Stage 2.
-
-Score meaning (1-10):
-- 8-10: strong shortlist candidate
-- 6-7: borderline candidate
-- 1-5: clear reject
-
-Pass mapping:
-- llm_filter_passed=true when score >= 7
-- otherwise false
-
-Reason requirements:
-- max 8 words
-- concise triage rationale only
-- examples: "strong brand potential", "spammy keyword string", "random-looking name"
-
-Output constraints:
-- JSON array only
-- same order as input
-- exact schema:
-[{"domain_name":"...","brandability_score":8,"llm_filter_passed":true}]"""
+Return JSON array only. No markdown."""
 
 # Note: production pipeline currently runs deterministic bulk scoring in code
 # when enforce_deterministic_pipeline=true. This prompt is used only when
