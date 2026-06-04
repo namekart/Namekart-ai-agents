@@ -49,7 +49,7 @@ class Settings(BaseSettings):
     bulk_llm_batch_size: int = 500        # domains per bulk LLM call (when enabled)
 
     # ── Bulk classifier (stage 1 — eliminate junk early) ───────────────────
-    bulk_filter_pass_score: int = 8           # brandability 1–10; was 7 (too lenient → 66% pass)
+    bulk_filter_pass_score: int = 6           # lowered to allow PASS_MID domains into linguistic gate
     bulk_min_stem_length: int = 4
     bulk_max_stem_length: int = 14            # brandable names are short; was effectively unlimited
     bulk_reject_digits: bool = True
@@ -60,12 +60,12 @@ class Settings(BaseSettings):
     bulk_allowed_tlds: str = ""               # comma-separated allowlist; empty = use tier rules
 
     # ── Linguistic gate (stage 2 — quality over quantity) ──────────────────
-    linguistic_gate_threshold: float = 7.0    # bulk survivors must clear a higher bar
+    linguistic_gate_threshold: float = 6.4    # calibrated to realistic 4/6/8 linguistic scoring distribution
     linguistic_min_pronounceability: int = 6
     linguistic_min_memorability: int = 6
-    linguistic_min_spelling_ease: int = 6
-    linguistic_min_dimension_score: int = 6
-    linguistic_min_brand_signal: int = 6        # word_segmentation OR brand_personality floor
+    linguistic_min_spelling_ease: int = 4
+    linguistic_min_dimension_score: int = 5
+    linguistic_min_brand_signal: int = 5        # relaxed to recover good auction domains with one weaker sub-dimension
     linguistic_min_industry_fit: int = 5
     linguistic_block_weak_tlds: bool = True
     max_market_candidates_per_run: int = 100  # cap expensive APR/market work; 0 = no cap

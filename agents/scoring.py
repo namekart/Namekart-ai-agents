@@ -284,11 +284,16 @@ def assign_linguistic_decision(row: dict) -> str:
     features = parse_domain(row["domain_name"])
     branded = stem_has_brand_keyword(features.stem)
 
-    if ling >= 7.2 and bulk >= 7:
+    # Keep STRONG_BUY quality-first: require higher linguistic merit + strong bulk + premium/strong TLD.
+    if ling >= 7.35 and bulk >= 7 and features.tld in {"com", "ai", "io", "net"}:
         return "STRONG_BUY"
-    if ling >= 6.9 and bulk >= 7 and branded:
+    if ling >= 7.05 and bulk >= 7 and branded and features.tld in {"com", "ai", "io", "net"}:
         return "STRONG_BUY"
     if ling >= 7.0 and bulk >= 7:
+        return "BUY"
+    if ling >= 6.2 and bulk >= 6 and features.tld in {"com", "ai", "io", "net"}:
+        return "BUY"
+    if ling >= 6.0 and bulk >= 6 and features.tld in {"com", "ai", "io", "net"}:
         return "BUY"
     if ling >= 6.5 and bulk >= 6:
         return "BUY"

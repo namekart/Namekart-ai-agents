@@ -1,0 +1,2 @@
+from schemas.prompts.bulk_classifier import BULK_CLASSIFIER_SYSTEM, BULK_CLASSIFIER_USER
+

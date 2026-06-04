@@ -14,7 +14,11 @@ sys.path.insert(0, str(ROOT / "agents"))
 sys.path.insert(0, str(ROOT / "schemas"))
 
 from agents.bulk_classifier import run_bulk_classifier
-from agents.linguistic_agent import evaluate_linguistic_gate, score_linguistic_deterministic
+from agents.linguistic_agent import (
+    evaluate_linguistic_gate,
+    run_linguistic_agent_batch,
+    score_linguistic_deterministic,
+)
 from agents.scoring import build_linguistic_only_candidates, rank_domains_linguistic_only
 
 ALL_FIELDS = [
@@ -109,7 +113,12 @@ def _final_stage(bulk_pass: bool, ling_pass: bool) -> str:
     return "linguistic_pass"
 
 
-def run_export(input_csv: Path, output_dir: Path, limit: int | None = None) -> dict[str, int]:
+def run_export(
+    input_csv: Path,
+    output_dir: Path,
+    limit: int | None = None,
+    ling_batch_size: int = 50,
+) -> dict[str, int]:
     domains = _read_domains(input_csv, limit=limit)
     if not domains:
         raise SystemExit("No valid domains found in input CSV.")
@@ -128,32 +137,8 @@ def run_export(input_csv: Path, output_dir: Path, limit: int | None = None) -> d
         meta = by_name[name]
         bulk = bulk_results.get(name)
         bulk_pass = bool(bulk and bulk.llm_filter_passed)
-        ling_pass = False
-        ling_score = ""
-        ling_adjusted = ""
-        gate_reason = ""
-
         if bulk_pass:
             bulk_pass_names.append(name)
-            report = score_linguistic_deterministic(name)
-            linguistic_reports[name] = report
-            ling_pass, ling_adjusted_val, gate_reason = evaluate_linguistic_gate(report)
-            ling_score = report.overall_linguistic_score
-            ling_adjusted = ling_adjusted_val
-
-            if ling_pass:
-                ling_rows.append(
-                    {
-                        "domain_name": name,
-                        "tld": meta["tld"],
-                        "auction_price": meta["auction_price"],
-                        "bulk_score": bulk.brandability_score,
-                        "ling_score": ling_score,
-                        "ling_adjusted": ling_adjusted,
-                        "gate_reason": gate_reason or "",
-                    }
-                )
-
             bulk_rows.append(
                 {
                     "domain_name": name,
@@ -163,6 +148,45 @@ def run_export(input_csv: Path, output_dir: Path, limit: int | None = None) -> d
                     "bulk_reason": bulk.llm_filter_reason,
                 }
             )
+
+    # Linguistic scoring on bulk-pass set (LLM path if enabled, deterministic otherwise).
+    if bulk_pass_names:
+        for i in range(0, len(bulk_pass_names), max(1, int(ling_batch_size))):
+            sub_domains = bulk_pass_names[i : i + ling_batch_size]
+            reports = run_linguistic_agent_batch(sub_domains)
+            for r in reports:
+                linguistic_reports[r.domain_name.strip().lower()] = r
+        for name in bulk_pass_names:
+            if name not in linguistic_reports:
+                linguistic_reports[name] = score_linguistic_deterministic(name)
+
+    for name in names:
+        meta = by_name[name]
+        bulk = bulk_results.get(name)
+        bulk_pass = bool(bulk and bulk.llm_filter_passed)
+        ling_pass = False
+        ling_score = ""
+        ling_adjusted = ""
+        gate_reason = ""
+
+        if bulk_pass:
+            report = linguistic_reports.get(name)
+            if report:
+                ling_pass, ling_adjusted_val, gate_reason = evaluate_linguistic_gate(report)
+                ling_score = report.overall_linguistic_score
+                ling_adjusted = ling_adjusted_val
+                if ling_pass:
+                    ling_rows.append(
+                        {
+                            "domain_name": name,
+                            "tld": meta["tld"],
+                            "auction_price": meta["auction_price"],
+                            "bulk_score": bulk.brandability_score,
+                            "ling_score": ling_score,
+                            "ling_adjusted": ling_adjusted,
+                            "gate_reason": gate_reason or "",
+                        }
+                    )
 
         all_rows.append(
             {
@@ -219,11 +243,17 @@ def main() -> None:
     parser.add_argument("input_csv", help="Path to source CSV (must include domain or domain_name)")
     parser.add_argument("--outdir", required=True, help="Output directory for report files")
     parser.add_argument("--limit", type=int, default=None, help="Optional input limit")
+    parser.add_argument(
+        "--ling-batch-size",
+        type=int,
+        default=50,
+        help="Batch size for linguistic scoring requests in this runner",
+    )
     args = parser.parse_args()
 
     input_csv = Path(args.input_csv)
     outdir = Path(args.outdir)
-    counts = run_export(input_csv, outdir, limit=args.limit)
+    counts = run_export(input_csv, outdir, limit=args.limit, ling_batch_size=args.ling_batch_size)
     print(f"Input domains:          {counts['input']}")
     print(f"Bulk shortlisted:       {counts['bulk_shortlisted']}")
     print(f"Linguistic shortlisted: {counts['linguistic_shortlisted']}")
