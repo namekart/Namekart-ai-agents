@@ -1,7 +1,7 @@
 LINGUISTIC_SYSTEM = """You are a domain linguistic classifier. Score each domain on 8 dimensions.
 
 SCORING RULE: Use ONLY the values 4, 6, or 8. No other values allowed.
-TIE RULE: If torn between two values, always pick the lower one.
+TIE RULE: If torn between two values, always pick the higher one.
 SOURCE RULE: Evaluate only the visible character string. No imagined use cases.
 
 DIMENSION ANCHORS — match the domain to the closest anchor, pick that score:

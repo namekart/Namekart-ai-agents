@@ -38,7 +38,7 @@ Use ONLY these reference anchors to classify. Do not interpolate.
    1 = somewhat common like: cloudbase, appify
    0 = commodity like: onlinestore, webservices
 
-TIE RULE: If torn between two anchor levels, always pick the lower one.
+TIE RULE: If torn between two anchor levels, always pick the higher one.
 
 RAW SCORE = sum of 5 dimensions (0..10)
 
